@@ -8,16 +8,20 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-//    std::cout << "Time is everything!\n";
-    
-    for (int i=0;i<10;i++)
-    {
-        std::cout<<"the number is: "<< i<<std::endl;
-        std::cout << "Time is everything!\n";
-        std::cout << "\n";
+using namespace std;
+
+void recurfunc(int i){
+    cout<<"Time is everything + "<<i<<endl;
+    i++;
+    if(i<10){
+        recurfunc(i);
     }
+}
+
+int main(int argc, const char * argv[]) {
+
+    int i=0;
+    recurfunc(i);
     
     return 0;
 }
