@@ -10,11 +10,13 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Time is everything!\n";
+//    std::cout << "Time is everything!\n";
     
     for (int i=0;i<10;i++)
     {
         std::cout<<"the number is: "<< i<<std::endl;
+        std::cout << "Time is everything!\n";
+        std::cout << "\n";
     }
     
     return 0;

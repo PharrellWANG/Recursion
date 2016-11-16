@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF3931681DDC620D00811B4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3931671DDC620D00811B4A /* main.cpp */; };
+		DF3931681DDC620D00811B4A /* TRecurmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3931671DDC620D00811B4A /* TRecurmain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		DF3931641DDC620D00811B4A /* recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = recursion; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3931671DDC620D00811B4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF3931671DDC620D00811B4A /* TRecurmain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TRecurmain.cpp; path = recursion/TRecurmain.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		DF3931661DDC620D00811B4A /* recursion */ = {
 			isa = PBXGroup;
 			children = (
-				DF3931671DDC620D00811B4A /* main.cpp */,
+				DF3931671DDC620D00811B4A /* TRecurmain.cpp */,
 			);
 			path = recursion;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3931681DDC620D00811B4A /* main.cpp in Sources */,
+				DF3931681DDC620D00811B4A /* TRecurmain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
